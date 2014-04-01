@@ -1,0 +1,86 @@
+/* 
+    Document   : sprite
+    Created on : 2013-11-4, 10:15:06
+    Author     : actrace
+    Description:
+    [CN]这是一个切图文件
+*/
+.sprite-logo-big {
+	background: url('emt.png') no-repeat -5px -7px;
+	width: 371px;
+	height: 347px;
+}
+.sprite-logo {
+	background: url('emt.png') no-repeat -388px -173px;
+	width: 172px;
+	height: 172px;
+}
+.sprite-colorfont {
+	background: url('emt.png') no-repeat -587px -280px;
+	width: 340px;
+	height: 64px;
+}
+.sprite-istop {
+	background: url('emt.png') no-repeat -9px -384px;
+	width: 661px;
+	height: 67px;
+}
+.sprite-progress-box {
+	background: url('emt.png') no-repeat -6px -552px;
+	width: 947px;
+	height: 44px;
+}
+.sprite-progress-bar {
+	background: url('emt.png') no-repeat -7px -613px;
+	width: 405px;
+	height: 42px;
+}
+.sprite-isnotice {
+	background: url('emt.png') no-repeat -421px -630px;
+	width: 70px;
+	height: 26px;
+}
+.sprite-isdown {
+	background: url('emt.png') no-repeat -505px -604px;
+	width: 247px;
+	height: 67px;
+}
+.sprite-loginbtn {
+	background: url('emt.png') no-repeat -767px -609px;
+	width: 62px;
+	height: 62px;
+        border: 0px;
+}
+.sprite-exbtn {
+	background: url('emt.png') no-repeat -845px -655px;
+	width: 17px;
+	height: 12px;
+}
+.sprite-server {
+	background: url('emt.png') no-repeat -877px -643px;
+	width: 28px;
+	height: 28px;
+}
+.sprite-logout {
+	background: url('emt.png') no-repeat -915px -647px;
+	width: 21px;
+	height: 24px;
+}
+.sprite-line-dashed {
+        background: linear-gradient(to right, #FD7C00,#00601B,#6F156C);
+        border-top: dashed 1px white;
+        margin-right: auto;
+	height: 1px;
+}
+.sprite-line-colord {
+	background: linear-gradient(to right, #FD7C00,#00601B,#6F156C);
+	width: 98%;
+	height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.sprite-pennel {
+	background: url('emt.png') no-repeat -1000px -134px;
+	width: 242px;
+	height: 328px;
+}

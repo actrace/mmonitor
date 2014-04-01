@@ -1,0 +1,342 @@
+/* 
+    Document   : main
+    Created on : 2013-11-4, 10:30:23
+    Author     : actrace
+    Description:
+    [CN]主要样式表
+*/
+
+/* Sticky footer styles
+      -------------------------------------------------- */
+div{
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    padding: 11px;
+    height: 60px;
+}
+#footer {
+    background-color: #f7f7f7;
+}
+.footer-content{
+    text-align: center;
+    color: #8F538D;
+    font-weight:lighter;
+}
+.footer-content a{
+    color: #8F538D;
+    text-decoration: none;
+}
+.color-font{
+    background: linear-gradient(to right, orange,green,indigo);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+
+/*
+头部定义-1
+*/
+.head{
+    position: relative;
+    height: 220px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    z-index: 101;
+}
+.head-box{
+    width: 836px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    position: relative;
+}
+.head-box-logo{
+    float: left;
+}
+.head-box-text{
+    float: left;
+    margin-top: 45px;
+    margin-left: 78px;
+}
+.head-text{
+    margin-top: 15px;
+    margin-left: 238px;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight:100;
+    color: #BEBEBE;
+}
+
+/*
+登陆框
+*/
+.login-box{
+    width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.login-box-box-a{
+    margin-top:10px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight:100;
+    color:#FF7812;
+}
+.login-box-box-b{
+    margin-top:80px;
+    font-size: 30px;
+    font-weight:100;
+    color:#FF7812;
+}
+.login-box-left{
+    padding: 10px;
+    float: left;
+    width: 190px;
+    height: 230px;
+    border-right: 1px #879ABE dashed;
+}
+.login-box-right{
+    padding: 10px;
+    width: 370px;
+    height: 230px;
+    float: left;
+}
+.login-box-bottom{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62px;
+    height: 62px;
+}
+
+/*
+输入框
+*/
+.login-box-input{
+    border: 0px;
+    font-size: 25px;
+    height: 35px;
+    width: 340px;
+    outline: none;
+    border-bottom: 1px #FF7812 solid;
+    margin-left: 30px;
+}
+.datepicker-tool{
+    display: inline;
+    border-style: dashed;
+    border-color:#eaeaea;
+    border-width: 1px;
+}
+
+/*
+首页主体盒子
+*/
+.main{
+    height: 100%;
+    width: 1244px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.server-on{
+    top: -21px;
+    z-index: 101;
+    position: relative;
+    text-align: center;
+    color: #a5a5a5;
+}
+.server-bgx{
+    top: -31px;
+    position: relative;
+    width:242px;
+    margin-left: auto;
+    margin-right: 0px;
+    z-index:50;
+}
+.server-click{
+    top: -38px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0px;
+    cursor:pointer;
+    z-index: 101;
+}
+.server-panel{
+    width: 242px;
+    height: 328px;
+    padding: 10px;
+    z-index: 99;
+}
+.server-model{
+    padding-top: 5px;
+    padding-bottom:10px;
+}
+.server-list-box{
+    overflow: scroll;
+    height: 222px;
+    width: 222px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px #FF7812 dashed;
+    border-top: 1px #FF7812 dashed;
+    padding-top: 10px;
+}
+.server-one{
+    padding-left: 27px;
+    font-size: 16px;
+    line-height:28px;
+    height: 28px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    cursor:pointer;
+}
+.server-one-li{
+    float: left;
+    margin-right: 33px;
+    color: #8F8F8F;
+}
+.server-bottom{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.server-bg{
+    width: 242px;
+    height: 328px;
+    background-color: white;
+}
+.server-bgx-click{
+    position:absolute;
+    z-index: 998;
+    height: 100%;
+    width: 100%;
+}
+/*
+首页内容填充区
+*/
+.content{
+    height: 100%;
+    width: 1244px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-date{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.draw{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*
+欢迎页
+*/
+.welcome-box{
+    width: 660px;
+    height: 730px;
+    position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;
+    text-align:center;
+}
+#welcome-w-line1{
+    display:inline;
+    position: relative;
+    padding: 0px;
+    font-weight: 100;
+    font-size: 65px;
+    background: linear-gradient(to right, orange,green,indigo);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+#welcome-w-line2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom:  15px;
+    cursor: pointer;
+}
+#welcome-w-line3{
+    margin-top: 60px;
+    display:inline-block;
+    position: relative;
+    font-weight: 100;
+    font-size: 46px;
+    color:#2C9F53;
+}
+/*
+安装页
+*/
+.install-box{
+    width: 836px;
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.install-text{
+    display: inline;
+    font-size:30px;
+    font-weight: 100;
+}
+.install-pg-box{
+    width: 947px;
+    margin-top: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+}
+.install-pg{
+    margin-top: 110px;
+}
+.install-pg-bar{
+    width: 0%;
+    height: 44px;
+    background: linear-gradient(to right, orange,green,indigo);
+    -webkit-border-radius: 35px;
+}
+.install-notice-text{
+    text-align: left;
+}
+.install-finish-btn{
+    text-align: center;
+    height: 65px;
+    line-height:65px; 
+    width: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 100;
+    border: 1px #f7f7f7 solid;
+    color: #f7f7f7;
+    -moz-border-radius: 10px;      /* Gecko browsers */
+    -webkit-border-radius: 10px;   /* Webkit browsers */
+    border-radius:10px;            /* W3C syntax */
+}
