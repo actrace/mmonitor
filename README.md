@@ -6,7 +6,7 @@ mmonitor
 + 更新: 2013-11-26
 + 版本: 2
 + 版权: GPL v3
-+ 主页: http://mmonitor.org
++ 主页: https://mm.vnet.link
 
 简介
 ========
